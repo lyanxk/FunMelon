@@ -33,13 +33,10 @@ Minecraft Java 1.21.1 / NeoForge 21.1.256 模组，用于私人服务器。提�
 
 ## 安装与开发验证
 
-客户端和服务器都安装 `build/libs/funmelon-1.1.jar`。使用扩展品种时，两端另装 Better Melon；其 JAR 不会打包进 FunMelon。
-
-本项目验证使用用户提供的 `qa_better_melon-26.10.1-neoforge-1.21.1.jar`。其 SHA-256 为 `36459680C7700D9C44B3707D639D1E8C0F287518C133FB1AF17C017AC7BBD09A`。
-
-仓库不包含 Better Melon 原始 JAR。克隆后，请将上述版本的 JAR 放到项目根目录；如果只开发普通瓜藤，可在 Gradle 命令中添加 `-PwithBetterMelon=false`。源码公开存放，不提供 GitHub Release；使用 Java 21 和项目自带的 Gradle Wrapper 构建。
-
-`gradle.properties` 默认设置 `withBetterMelon=true`，IDE 同步和开发运行均加载项目根目录中的上述 JAR。使用 `-PwithBetterMelon=false` 可验证未安装 Better Melon 的运行方式。此依赖仅用于开发运行，不会嵌入成品 JAR。
+- Minecraft Java 版 1.21.1
+- Java 21
+- NeoForge 21.1.256
+- Better Melon 26.10.1：使用黄玉、未熟、闪烁、附魔和末地品种时需要，客户端和服务器均需安装；普通瓜藤可独立使用。
 
 ```powershell
 ./gradlew.bat build
