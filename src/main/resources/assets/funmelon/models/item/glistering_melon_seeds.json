@@ -1,0 +1,17 @@
+{
+	"format_version": "1.9.0",
+	"credit": "FunMelon original cultivar seed icon painted in Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "funmelon:item/glistering_melon_seeds"
+	},
+	"groups": [
+		{
+			"name": "melon_seeds",
+			"origin": [8, 8, 8],
+			"scope": 0,
+			"color": 0,
+			"children": []
+		}
+	]
+}

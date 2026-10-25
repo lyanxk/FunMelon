@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "qa_better_melon"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "qa_better_melon:ender_melon_seeds"
+    }
+  ],
+  "result": {
+    "id": "funmelon:ender_melon_seeds",
+    "count": 1
+  }
+}

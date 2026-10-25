@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "qa_better_melon"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "qa_better_melon:yellow_melon_slice"
+    },
+    {
+      "item": "minecraft:melon_seeds"
+    }
+  ],
+  "result": {
+    "id": "funmelon:yellow_melon_seeds",
+    "count": 1
+  }
+}

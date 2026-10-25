@@ -1,0 +1,91 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "funmelon:block/enchanted_watermelon_leaves"
+      }
+    },
+    {
+      "when": {
+        "age": "7"
+      },
+      "apply": [
+        {
+          "model": "funmelon:block/enchanted_watermelon_stand"
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_stand",
+          "y": 90
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_stand",
+          "y": 180
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_stand",
+          "y": 270
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_lay"
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_lay",
+          "y": 90
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_lay",
+          "y": 180
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_lay",
+          "y": 270
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_rotated1"
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_rotated1",
+          "y": 90
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_rotated1",
+          "y": 180
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_rotated1",
+          "y": 270
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_rotated2"
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_rotated2",
+          "y": 90
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_rotated2",
+          "y": 180
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_rotated2",
+          "y": 270
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_rotated3"
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_rotated3",
+          "y": 90
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_rotated3",
+          "y": 180
+        },
+        {
+          "model": "funmelon:block/enchanted_watermelon_rotated3",
+          "y": 270
+        }
+      ]
+    }
+  ]
+}

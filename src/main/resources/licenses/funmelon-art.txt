@@ -1,0 +1,73 @@
+FunMelon artwork provenance
+
+watermelon_leaves, watermelon_stand, watermelon_lay,
+watermelon_rotated1, watermelon_rotated2, watermelon_rotated3 models;
+watermelon_leaves, watermelon_side, watermelon_top textures;
+melon_vine multipart blockstate:
+
+Source: Tea the Story : Recount
+Repository: https://github.com/TeamTeaMC-Misc/Tea-the-Story
+Commit: cf0ffb99aee08a139d4272c3776d3ab9161fb7e1
+Original directory: src/main/resources/assets/teastory/
+Original model credit: MalayP made with Blockbench (fruit models),
+Made with Blockbench (leaf model).
+Project authors: joe_vettek (jianzoushihu), RoitoLeonine,
+Gloridifice, MalayP, and other upstream contributors.
+
+Upstream resource license: Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+Changes: imported into Blockbench 5.2.2 as Java block models;
+selected the Minecraft 1.9-1.21.5 format; changed resource namespace
+from teastory to funmelon; re-exported through Blockbench's native
+Java codec. The blockstate filename is melon_vine.json.
+Original geometry, UVs, textures, face tint indices and fruit variants
+are retained. Adapted upstream resources retain the above license.
+No upstream endorsement is implied.
+
+melon_seeds.png and models/item/melon_seeds.json:
+Original FunMelon artwork painted in Blockbench for this project.
+The icon depicts two seeds with a small green shoot.
+
+Additional cultivar artwork (yellow, unripe, glistering, enchanted, ender)
+
+Geometry: the same Tea the Story / MalayP five fruit poses and leaf model,
+under CC BY-NC-SA 4.0 as documented above. Fruit face UVs now span the
+complete 16x16 source texture; pose geometry and rotations are retained.
+Cultivar leaf PNGs are recolored adaptations of the Tea grayscale leaf
+texture, edited in Blockbench while retaining its four shading levels,
+alpha silhouette, geometry and UVs. Fixed colors are yellow (yellow),
+pale mint (unripe), gold-orange (glistering), cyan (enchanted), and
+purple-pink (ender). Cultivar leaf face tint indices are removed; the
+ordinary melon keeps its original grayscale texture and tintindex=0.
+These Tea adaptations retain CC BY-NC-SA 4.0.
+
+Fruit PNG source: Better Melon, supplied file
+qa_better_melon-26.10.1-neoforge-1.21.1.jar.
+Author/credits: LitQA (META-INF/neoforge.mods.toml).
+Declared license: CC-BY-NC 4.0 (Creative Commons Attribution-
+NonCommercial 4.0 International).
+https://creativecommons.org/licenses/by-nc/4.0/
+https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Exact source -> exported file mapping in assets/*/textures/block/:
+melon_side.png -> yellow_watermelon_side.png, unripe_watermelon_side.png
+melon_top.png -> yellow_watermelon_top.png, unripe_watermelon_top.png
+melon_side_glistering.png -> glistering_watermelon_side.png
+melon_top_glistering.png -> glistering_watermelon_top.png
+enchanted_melon_side.png -> enchanted_watermelon_side.png
+enchanted_melon_top.png -> enchanted_watermelon_top.png
+melon_side_ender.png -> ender_watermelon_side.png
+melon_top_ender.png -> ender_watermelon_top.png
+
+The ten exported fruit PNGs are byte-identical to those source assets.
+Enchanted animation metadata is also retained exactly (20 frames,
+frametime 4). Better Melon fruit textures retain their original CC-BY-NC
+4.0 license independently of the Tea geometry/leaf resource license.
+No endorsement from either upstream project is implied.
+
+Five additional {prefix}_melon_seeds icons: original FunMelon artwork
+painted in Blockbench; two seeds, a small shoot, cultivar-colored husks.
+These icons do not copy Better Melon seed textures.
